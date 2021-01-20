@@ -18,7 +18,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/sobre">
-              <a className={router.pathname === "/" ? "active" : null}>Sobre</a>
+              <a className={router.pathname === "/sobre" ? "active" : null}>Sobre</a>
             </Link>
           </li>
           <li>
@@ -48,7 +48,7 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
+              background-color: #282a36;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -69,7 +69,7 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: #f779c7;
             }
 
             @media (min-width: 769px) {

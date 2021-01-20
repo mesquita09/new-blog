@@ -1,13 +1,13 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
+  - slug: linux
+    name: linux
+  - slug: javascript
+    name: javascript
+  - slug: react
+    name: react
+  - slug: flutter
+    name: flutter
+  - slug: pentest
+    name: pentest
+  - slug: estudo
+    name: estudo

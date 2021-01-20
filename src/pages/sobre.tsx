@@ -13,10 +13,16 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Sobre<span className="fancy">!</span>
+            Sobre<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <span className="handle"></span>
+          <h2></h2>
+          <p className="sobre">Sou apaixonado por tecnologia e sua capacidade de transformação. 
+          <br/>
+          <br/> Atualmente me dedico a aprender programação, mais recentemente javascript e linux ♥. </p>
+
+          <p className="sobre"> Entre em contato pelas minhas redes sociais abaixo </p>
+          <br/>
           <SocialList />
         </div>
       </div>
@@ -27,6 +33,7 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
+          max-width: 100%;
         }
         h1 {
           font-size: 2.5rem;
@@ -38,8 +45,11 @@ export default function Index() {
           font-weight: 400;
           line-height: 1.25;
         }
+        .sobre {
+          text-align: justify;
+        }
         .fancy {
-          color: #15847d;
+          color: #6272a4;
         }
         .handle {
           display: inline-block;
